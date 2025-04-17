@@ -9,6 +9,7 @@ namespace URL_ShortenerApi.Models
         {
 
         }
+        public DbSet<ApplicationUser> Users { get; set; }
         public DbSet<ShortenedUrl> ShortenedUrls { get; set; }
     }
 }
